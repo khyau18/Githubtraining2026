@@ -12,7 +12,7 @@ jobs:
 
       -name: Call Random Generator Action
       id: custom_rng
-      uses: ./.github/random/random-generator
+      uses: ./.github/random/action
       with:
         user-name: 'Alice'
 
